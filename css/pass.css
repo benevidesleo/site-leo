@@ -1,0 +1,32 @@
+body{ 
+    background-color: black;
+}
+
+.container{ 
+    display: grid;
+    grid-template-columns: 3;
+}
+
+.part1{ 
+    background-color: aqua;
+}
+
+.part2{ 
+    background-color: red;
+}
+
+.part3{ 
+    background-color: yellow;
+}
+
+.part4{ 
+    background-color: #fff;
+}
+
+.part5{ 
+    background-color: blueviolet;
+}
+
+.part6{ 
+    background-color: blue;
+}

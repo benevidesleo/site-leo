@@ -11,18 +11,18 @@
 <body>
     <header>
         <div class="head">
-            <p>don´t have any account?</p> <a class="account" href="criar.html"> Create a new account </a>
+            <p>don´t have any account?</p> <a class="account" href="criar.html" target="_blank"> Create a new account </a>
         </div>
     </header>
     <section>
         <div class="div-tudo">
             <div class="image">...</div>
             <div class="container">
-                <form>
-                    <input type="email" name="E-mail" placeholder="E-mail" required />
-                    <input type="password" name="password" placeholder="senha" required />
+                <form action="" method="get">
+                    <input type="email" name="E-mail" placeholder="E-mail" required  />
+                    <input type="password" name="password" placeholder="senha" required maxlength="8" />
 
-                    <a class="login" href="">Log in</a>
+                    <input class="login"  type="submit" name="log-in"/>
                     <a class="password" href="">Forgot password?</a>
                 </form>
             </div>
