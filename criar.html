@@ -16,12 +16,13 @@
     </header>
     <section>
         <div class="container">
+
             <form action="index.html" method="get">
-                <input type="text" name="name" placeholder="Name" required />
+                <input type="text" name="name" placeholder="Name" required  autofocus/>
                 <input type="text" name="lastname" placeholder="Lastname" required />
                 <input type="email" name="email" placeholder="E-mail" required />
                 <input type="number" name="number" placeholder="Number" required />
-                <input type="date" name="birthday" placeholder="birthday" required />
+                <input placeholder="Data de Nascimento" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
                 <input type="password" name="password" placeholder="Create your password" required maxlength="8" />
                 <input type="password" name="password" placeholder="Confirm your password" required maxlength="8" />
                 <input class="login" type="submit" name="create" placeholder="create" />

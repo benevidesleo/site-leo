@@ -117,9 +117,13 @@ input::placeholder{
     background-color: #fff;
     transition: 2s;
     color: black;
+    cursor: pointer;
 }
 
-
+input::-webkit-inner-spin-button{ 
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 
 
